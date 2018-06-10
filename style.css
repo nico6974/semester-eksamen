@@ -1,0 +1,293 @@
+body {
+    background-color: #808B96;
+}
+
+#logo img {
+    width: 50%;
+}
+
+/*til at centrere logoet, anvend igen!*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    font-family: 'Sunflower', sans-serif;
+    color: #F0EADC;
+    text-align: left;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #F8C471;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Sunflower', sans-serif;
+    color: #F0EADC;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Sunflower', sans-serif;
+    color: #F1BC70;
+    text-align: center;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.topnav {
+    background-color: #566573;
+    overflow: hidden;
+}
+
+
+
+.video {
+    /*    position: absolute;*/
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.app {
+
+    /*    position: absolute;*/
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lyd {
+    display: block;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+
+/*invendig styling til nav-bar*/
+
+.topnav a {
+    /*    float: center;*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+a {
+    font-family: 'Sunflower', sans-serif;
+    color: #F5B041;
+    text-align: center;
+}
+
+/*Container under menu.*/
+
+.topnav a:hover {
+    background-color: #ADAFB0;
+    color: #F1BC70;
+    transition: background-color 1s ease-out;
+}
+
+/*profilbillede */
+
+#profilbillede {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#profilbillede img {
+    width: 25vw;
+}
+
+#portfolio {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#portfolio img {
+    width: 100vw;
+}
+
+
+/*web style*/
+
+#dekonstruktivisme {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#dekonstruktivisme img {
+    width: 80vw;
+}
+
+
+/*animations-style*/
+
+#scene-karakterer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#scene-karakterer img {
+    width: 90vw;
+}
+
+#karakterdesign {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#karakterdesign img {
+    width: 90vw;
+
+}
+
+
+
+#sprites {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#sprites img {
+    width: 90vw;
+}
+
+
+#stormshoved {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#stormshoved img {
+    width: 30vw;
+}
+
+#stormsvalgspil {
+    align-items: center;
+    justify-content: center;
+    /*    display: flex;*/
+}
+
+#stormsvalgspil img {
+    width: 30vw;
+}
+
+
+
+#image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#image img {
+    width: 40vw;
+}
+
+
+/*portfolio styling*/
+
+.container {
+    align-content: center;
+    position: relative;
+    width: 40%;
+
+    /*    justify-content: space-around;*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #566573;
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+}
+
+.text {
+    color: #F0EADC;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+}
+
+/*portfolio styling slut*/
+
+footer {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    /*    position: fixed;*/
+    width: 100%;
+    bottom: 0;
+    font-size: 69%;
+    font-family: 'Sunflower', sans-serif;
+    color: #F1BC70;
+
+}
